@@ -23,7 +23,7 @@ header {
   background-color: black;
 }
 
-.logo {
+.logo-background {
   background-size: cover;
   background-position: center;
   background-image: url(./images/header.jpg);
@@ -32,7 +32,7 @@ header {
   opacity: 0.7;
 }
 
-.logoPic {
+.logo {
   position: absolute;
   right: 1rem;
   top: 5rem;
@@ -41,7 +41,7 @@ header {
 }
 
 @media (max-width: 768px) {
-  .logoPic {
+  .logo {
     width: 400px;
     top: 10rem;
     left: 50%;
@@ -51,7 +51,7 @@ header {
 }
 
 @media (max-width: 400px) {
-  .logoPic {
+  .logo {
     width: 300px;
   }
 }

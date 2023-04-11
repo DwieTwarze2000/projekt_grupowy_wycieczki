@@ -282,14 +282,17 @@ footer {
 .footer-facebook:hover {
   color: #3b5998;
   font-weight: 800;
+  cursor: pointer;
 }
 
 .footer-twitter:hover {
   color: #00acee;
   font-weight: 800;
+  cursor: pointer;
 }
 
 .footer-instagram:hover {
   color: #bc2a8d;
   font-weight: 800;
+  cursor: pointer;
 }

@@ -1,16 +1,3 @@
-/* .backgroundImage {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 50vh;
-  background-image: url('https://waskiel.pl/wp-content/uploads/2019/11/pomysly-na-zdjecia-obraz-wyrozniajacy.jpg');
-  background-size: cover;
-  background-position: center;
-  opacity: 0.7;
-  z-index: -1;
-} */
-
 body,
 *,
 *:before,
@@ -21,6 +8,17 @@ body,
 }
 header {
   background-color: black;
+}
+
+.row,
+.col,
+.col-md-6,
+.col-md-4,
+.col-md-3,
+.col-md-2,
+.col-md-1 {
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 .logo-background {
@@ -57,8 +55,118 @@ header {
 }
 
 .searchBar {
-  background-color: #ffd700;
-  width: 90%;
-  border-radius: 40px;
+  background-color: #d8f0c2;
+  width: 100%;
   margin: auto;
+}
+
+.searchBar-tile {
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+}
+.searchBar-tile-left {
+  font-weight: bold;
+  padding-left: 2rem;
+}
+.searchBar-button-tile {
+  margin-top: 1rem;
+  text-align: center;
+  padding-right: 2rem;
+}
+
+.searchBar-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  background-color: #ff0404;
+  color: white;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.searchBar-select,
+.searchBar-price,
+.searchBar-date {
+  background-color: #308653;
+  color: white;
+  border-radius: 10px;
+}
+
+.searchBar-select {
+  width: 60%;
+}
+
+.searchBar-price {
+  width: 40%;
+}
+
+.searchBar-date {
+  width: 60%;
+}
+@media (max-width: 1150px) {
+  .searchBar-price {
+    width: 50%;
+  }
+
+  .searchBar-select {
+    width: 70%;
+  }
+
+  .searchBar-date {
+    width: 70%;
+  }
+}
+
+@media (max-width: 880px) {
+  .searchBar-price {
+    width: 60%;
+  }
+
+  .searchBar-select {
+    width: 80%;
+  }
+
+  .searchBar-date {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .searchBar-price {
+    width: 50%;
+  }
+
+  .searchBar-tile {
+    text-align: center;
+    margin: auto;
+  }
+
+  .searchBar-select {
+    width: 50%;
+  }
+
+  .searchBar-date {
+    width: 50%;
+  }
+
+  .searchBar-tile {
+    text-align: center;
+    margin: auto;
+    padding: 0;
+  }
+
+  .searchBar-tile-left {
+    padding: 0;
+  }
+
+  .searchBar-button-tile {
+    text-align: center;
+    margin-top: 1rem;
+    padding: 0;
+  }
 }

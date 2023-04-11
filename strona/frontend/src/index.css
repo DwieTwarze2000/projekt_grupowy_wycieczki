@@ -65,6 +65,7 @@ header {
   width: 100%;
   margin: auto;
   padding-bottom: 1rem;
+  font-size: 1.2rem;
 }
 
 .searchBar-tile {
@@ -219,8 +220,76 @@ header {
 }
 
 @media (max-width: 768px) {
+  .mainTiles-tile {
+    width: 90%;
+    width: 95%;
+  }
+
   .mainTiles-flag {
     width: 2.5rem;
     height: 1.5rem;
   }
+}
+
+/* footer  */
+
+footer {
+  margin-top: 2rem;
+  background-color: #308653;
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.footer-icon {
+  width: 50px;
+  height: 50px;
+  margin: 0.6rem;
+}
+
+.footer-image {
+  width: 100%;
+}
+
+.footer-left {
+  padding-top: 4rem;
+}
+
+@media (max-width: 1227px) {
+  .footer-left {
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 1041px) {
+  footer {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 993px) {
+  footer {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  footer {
+    font-size: 1.2rem;
+  }
+}
+
+.footer-facebook:hover {
+  color: #3b5998;
+  font-weight: 800;
+}
+
+.footer-twitter:hover {
+  color: #00acee;
+  font-weight: 800;
+}
+
+.footer-instagram:hover {
+  color: #bc2a8d;
+  font-weight: 800;
 }

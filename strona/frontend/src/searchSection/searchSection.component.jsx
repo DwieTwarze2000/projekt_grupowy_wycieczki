@@ -1,7 +1,7 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
-import ResultsComponent from './results/components/results.component';
-import FilterComponent from './filters/components/filter.component';
+import ResultsComponent from './results.component';
+import FilterComponent from './filter.component';
 
 const SearchSectionComponent = () => {
   return (

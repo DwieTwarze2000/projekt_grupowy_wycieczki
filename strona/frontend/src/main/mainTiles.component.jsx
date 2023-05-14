@@ -1,10 +1,10 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 
-import gbFlag from '../../../images/flags/gbFlag.jpg';
-import franceFlag from '../../../images/flags/franceFlag.avif';
-import czechFlag from '../../../images/flags/czechFlag.jpg';
-import greeceFlag from '../../../images/flags/greeceFlag.jpg';
+import gbFlag from './../images/flags/gbFlag.jpg';
+import franceFlag from './../images/flags/franceFlag.avif';
+import czechFlag from './../images/flags/czechFlag.jpg';
+import greeceFlag from './../images/flags/greeceFlag.jpg';
 
 const MainTilesComponent = () => {
   return (

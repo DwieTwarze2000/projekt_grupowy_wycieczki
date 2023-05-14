@@ -1,12 +1,12 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
-import phone from '../../../images/footer/phone.png';
-import envelope from '../../../images/footer/envelope.png';
-import facebook from '../../../images/footer/facebook.png';
-import instagram from '../../../images/footer/instagram.png';
-import twitter from '../../../images/footer/twitter.png';
+import phone from './../images/footer/phone.png';
+import envelope from './../images/footer/envelope.png';
+import facebook from './../images/footer/facebook.png';
+import instagram from './../images/footer/instagram.png';
+import twitter from './../images/footer/twitter.png';
 
-import footerRight from '../../../images/footer/footerRight.png';
+import footerRight from './../images/footer/footerRight.png';
 const FooterComponent = () => {
   return (
     <footer>

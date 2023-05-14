@@ -221,13 +221,95 @@ header {
 
 @media (max-width: 768px) {
   .mainTiles-tile {
-    width: 90%;
-    width: 95%;
+    width: 100%;
   }
 
   .mainTiles-flag {
     width: 2.5rem;
     height: 1.5rem;
+  }
+}
+
+/*filters */
+.search-section {
+  margin: 2rem 1rem 0 1rem;
+}
+.filters {
+  background-color: #308653;
+  color: white;
+  padding: 1rem;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.filters h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.filter-button {
+  background-color: #ff0404;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+@media (max-width: 956px) {
+  .filter-price {
+    width: 70%;
+  }
+}
+
+.search-results h2 {
+  background-color: rgb(212, 212, 212);
+  border-radius: 20px;
+  text-align: center;
+  margin: 0 0 2rem 0;
+}
+
+@media (max-width: 768px) {
+  .search-results {
+    margin-top: 1rem;
+  }
+}
+
+.result-tile {
+  background-color: rgb(212, 212, 212);
+  padding: 20px 10px 20px 10px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.result-tile-image {
+  text-align: center;
+}
+
+.result-tile-image img {
+  border-radius: 20px;
+}
+
+.result-tile-info p {
+  font-size: 1.4rem;
+}
+
+.result-tile-price p {
+  font-size: 1.4rem;
+}
+
+.result-tile-price-price {
+  font-size: 1.9rem;
+  color: rgb(8, 8, 220);
+}
+
+@media (max-width: 1199px) {
+  .result-tile-price {
+    margin-top: 1rem;
   }
 }
 

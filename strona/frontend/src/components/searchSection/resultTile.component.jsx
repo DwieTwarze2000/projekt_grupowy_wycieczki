@@ -1,6 +1,6 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
-import pobrane from './../images/pobrane.jpg';
+import pobrane from '../../images/pobrane.jpg';
 
 const ResultTileComponent = (info) => {
   const data = info.info;

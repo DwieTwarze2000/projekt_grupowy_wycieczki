@@ -2,6 +2,7 @@ import React from 'react';
 import ResultTileComponent from './resultTile.component';
 
 const ResultsComponent = () => {
+
   const info = {
     country: 'Francja',
     dateFrom: '20.03.2023',

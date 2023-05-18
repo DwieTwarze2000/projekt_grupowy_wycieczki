@@ -106,7 +106,7 @@ header {
 }
 
 .searchBar-select {
-  width: 60%;
+  width: 90%;
 }
 
 .searchBar-price {
@@ -121,10 +121,6 @@ header {
     width: 50%;
   }
 
-  .searchBar-select {
-    width: 70%;
-  }
-
   .searchBar-date {
     width: 70%;
   }
@@ -133,10 +129,6 @@ header {
 @media (max-width: 880px) {
   .searchBar-price {
     width: 60%;
-  }
-
-  .searchBar-select {
-    width: 80%;
   }
 
   .searchBar-date {
@@ -192,7 +184,14 @@ header {
   background-position: center;
   height: 40vh;
   min-height: 350px;
+  color: black;
+  text-decoration: none;
 }
+
+.link {
+  text-decoration: none;
+}
+
 
 .mainTiles-col {
   padding: 1rem 0 1rem 0 !important;
@@ -203,7 +202,7 @@ header {
 }
 
 .czech {
-  background-image: url(./images/mainTiles/mainTileCzech.jpg);
+  background-image: url(./images/mainTiles/mainTileTurkey.jpg);
 }
 
 .gb {

@@ -1,5 +1,6 @@
 import React from 'react';
 import ResultTileComponent from './resultTile.component';
+import { NavLink } from 'react-router-dom';
 import { db } from '../../db';
 import { useSelector } from 'react-redux';
 
@@ -44,7 +45,11 @@ const ResultsComponent = () => {
     });
 
     return results.map((item) => {
-      return <ResultTileComponent info={item} key={item.country} />;
+      return (
+        <NavLink to={`/search/${item.id}`} className="link" key={item.id}>
+          <ResultTileComponent info={item} key={item.id} />
+        </NavLink>
+      );
     });
   };
 

@@ -7,6 +7,16 @@ body,
   padding: 0;
 }
 
+.link {
+  color: black;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: black;
+  text-decoration: none;
+}
+
 body {
   font-family: 'Urbanist', sans-serif !important;
   font-weight: 400;
@@ -191,7 +201,6 @@ header {
 .link {
   text-decoration: none;
 }
-
 
 .mainTiles-col {
   padding: 1rem 0 1rem 0 !important;
@@ -378,4 +387,101 @@ footer {
   color: #bc2a8d;
   font-weight: 800;
   cursor: pointer;
+}
+
+/* results */
+
+.result__header {
+  padding: 10px 0 0 20px;
+}
+
+.result__mainImage {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+  .result__header {
+    padding: 10px 0;
+    text-align: center;
+  }
+}
+
+.result__reservationInfo {
+  background-color: rgb(212, 212, 212);
+  border-radius: 20px;
+  width: 80%;
+  margin: 1rem auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.result__reservationInfo input {
+  width: 4rem;
+  margin: 0 0.5rem;
+}
+
+.check {
+  font-size: 1.5rem !important;
+}
+
+.summary {
+  font-size: 1.5rem !important;
+  margin: 1rem 0;
+  text-align: center;
+}
+.summaryResult {
+  text-align: center;
+  font-size: 1.8rem !important;
+  color: red;
+}
+
+.result__info {
+  margin: 1.5rem 0 0 1rem;
+  font-size: 1.3rem;
+}
+
+.result__tripSchedule {
+  margin: 1.5rem 0 0 1rem;
+  font-size: 1.3rem;
+}
+
+@media (max-width: 768px) {
+  .result__info {
+    margin: 1.5rem 0 0 0;
+    font-size: 1.3rem;
+  }
+
+  .result__tripSchedule {
+    margin: 1.5rem 0 0 0;
+    font-size: 1.3rem;
+  }
+}
+
+.result__tripSchedule__day {
+  width: 80%;
+  margin: 2rem auto 0 auto;
+}
+.result__tripSchedule__day__image img {
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+}
+.title {
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .result__tripSchedule__day__image img {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 1rem;
+  }
+
+  .result__tripSchedule__day {
+    width: 95%;
+  }
 }

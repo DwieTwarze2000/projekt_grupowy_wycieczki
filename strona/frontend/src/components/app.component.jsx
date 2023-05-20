@@ -7,6 +7,7 @@ import MainTilesComponent from './main/mainTiles.component';
 import FooterComponent from './footer/footer.component';
 
 import SearchSectionComponent from './searchSection/searchSection.component';
+import ResultComponent from './results/result.component';
 
 const AppComponent = () => {
   return (
@@ -23,6 +24,7 @@ const AppComponent = () => {
           }
         />
         <Route path="/search" element={<SearchSectionComponent />} />
+        <Route path="/search/:id" element={<ResultComponent />} />
       </Routes>
       <FooterComponent />
     </Fragment>

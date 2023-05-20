@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import AppComponent from './components/app.component';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter} from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 
-import {createStore} from 'redux';
+import { createStore } from 'redux';
 import reducer from './reducers';
 import { Provider } from 'react-redux';
 

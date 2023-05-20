@@ -1,16 +1,16 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
-import pobrane from '../../images/pobrane.jpg';
 
 const ResultTileComponent = (info) => {
   const data = info.info;
+  // mainImage: './src/images/results/italy/mainItaly.jpg'
 
   return (
     <div className="result-tile">
       <Row>
         <Col xl={4}>
           <div className="result-tile-image">
-            <img src={pobrane} alt="result-tile" />
+            <img src={data.mainImage} alt="mainImage" />
           </div>
         </Col>
         <Col xl={4}>
@@ -22,7 +22,7 @@ const ResultTileComponent = (info) => {
             <br />
             {data.food}
             <br />
-            {data.type}
+            {data.tripType}
           </div>
         </Col>
         <Col xl={4}>

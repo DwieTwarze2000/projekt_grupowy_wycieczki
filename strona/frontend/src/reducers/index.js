@@ -36,7 +36,7 @@ const tripTypeReducer = (state = 'Wszystkie', action) => {
     }
 }
 
-const priceLowReducer = (state = 0, action) => {
+const priceLowReducer = (state = '', action) => {
     switch (action.type) {
         case 'SET_PRICE_LOW':
             return action.payload;
@@ -45,7 +45,7 @@ const priceLowReducer = (state = 0, action) => {
     }
 }
 
-const priceHighReducer = (state = 0, action) => {
+const priceHighReducer = (state = '', action) => {
     switch (action.type) {
         case 'SET_PRICE_HIGH':
             return action.payload;

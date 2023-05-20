@@ -19,7 +19,7 @@ const FilterComponent = () => {
         <label className="filter-label">Kraj</label>
         <br />
         <select className="filter-select" id="country" name="country" onChange={(e) => dispatch(setCountry(e.target.value))}>
-          <option selected={currentCountry == 'Wszystkie'}>Wszytkie</option>
+          <option selected={currentCountry == 'Wszystkie'}>Wszystkie</option>
           <option selected={currentCountry == 'Dania'}>Dania</option>
           <option selected={currentCountry == 'Finlandia'}>Finlandia</option>
           <option selected={currentCountry == 'Francja'}>Francja</option>
@@ -49,7 +49,7 @@ const FilterComponent = () => {
           <option selected={currentFood == 'Wszystkie'}>Wszystkie</option>
           <option selected={currentFood == 'All Inclusive'}>All Inclusive</option>
           <option selected={currentFood == '2 posiłki'}>2 posiłki</option>
-          <option selected={currentFood == 'Brak'}>Brak</option>
+          <option selected={currentFood == 'Bez wyżywienia'}>Bez wyżywienia</option>
         </select>
       </p>
       <p>

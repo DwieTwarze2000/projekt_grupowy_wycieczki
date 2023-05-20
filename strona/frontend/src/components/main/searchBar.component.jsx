@@ -44,7 +44,7 @@ const SearchBarComponent = () => {
                 <option selected>Wszystkie</option>
                 <option>All Inclusive</option>
                 <option>2 posiłki</option>
-                <option>Brak</option>
+                <option>Bez wyżywienia</option>
               </select>
             </div>
           </Col>

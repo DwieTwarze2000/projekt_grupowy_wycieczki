@@ -291,6 +291,8 @@ header {
 
 .result-tile-image img {
   border-radius: 20px;
+  height: 200px;
+  width: 300px;
 }
 
 .result-tile-info p {

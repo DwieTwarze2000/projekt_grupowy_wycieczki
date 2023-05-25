@@ -4,6 +4,7 @@ import { db } from '../../db';
 import { useSelector, useDispatch } from 'react-redux';
 import { setPersonAmount } from '../../actions';
 import { NavLink } from 'react-router-dom';
+import goBack from '../../images/goBack.png';
 
 const ResultComponent = () => {
   const personAmount = useSelector((state) => state.personAmount);
@@ -29,6 +30,14 @@ const ResultComponent = () => {
 
   return (
     <div className="result">
+      <div className="header2">
+        <NavLink to={`/search`} className="link" key={data.id}>
+          <h2>
+            <img src={goBack} className="goBack" alt="goBack" />
+            Powrót do wyszukiwania
+          </h2>
+        </NavLink>
+      </div>
       <div className="result__header">
         <h2>{data.country}</h2>
       </div>

@@ -485,3 +485,53 @@ footer {
     width: 95%;
   }
 }
+.reservation__data__header {
+  text-align: center;
+}
+.goBack {
+  width: 50px;
+  height: 50px;
+}
+
+.reservation__data {
+  width: 80%;
+  margin: 1rem auto;
+  /* text-align: center; */
+}
+
+.reservation__data__header {
+  background-color: #308653;
+  color: white;
+  border-radius: 20px;
+}
+
+table {
+  margin: 1rem auto;
+}
+
+td {
+  padding: 0.5rem 1rem 0 0;
+}
+
+.woman {
+  padding-right: 1rem;
+}
+
+.reservation_person_title {
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.inPrice {
+  font-size: 1.5rem;
+  margin: 5rem auto 0 auto;
+  text-align: center;
+  width: 40%;
+  border-radius: 20px;
+}
+
+.price-title {
+  font-size: 2rem;
+  font-weight: bold;
+}

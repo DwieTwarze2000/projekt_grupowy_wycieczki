@@ -78,17 +78,8 @@ export const db = [
       },
       {
         day: 2,
-        description:
-          'Po śniadaniu całodzienne zwiedzanie Londynu. W progranie zawarty rejs po Tamizie i tradycyjna popołudniowa herbata w Burlington House',
-        attractions: [
-          'Tower Bridge',
-          'dzielnica City of London',
-          'Tate Modern',
-          'Katedra św. Pawła',
-          'Convent Garden Market',
-          'Pałac Buckingham',
-          'Park St. James',
-        ],
+        description: 'Po śniadaniu całodzienne zwiedzanie Londynu. W progranie zawarty rejs po Tamizie i tradycyjna popołudniowa herbata w Burlington House',
+        attractions: ['Tower Bridge', 'dzielnica City of London', 'Tate Modern', 'Katedra św. Pawła', 'Convent Garden Market', 'Pałac Buckingham', 'Park St. James'],
         dayImage: day2GB,
       },
       {
@@ -133,22 +124,12 @@ export const db = [
       {
         day: 1,
         description: 'Przelot do Izraela, transfer do Jerozolimy i zwiedzanie starego miasta.',
-        attractions: [
-          'Jaffa Gate',
-          'Tower of Dawid',
-          'Synagoga Hurva',
-          'Ściana Płaczu',
-          'Meczet Al Aksa',
-          'Bazylika Grobu Świętego',
-          'Via Dolorosa',
-          'Meahane Yehuda Market',
-        ],
+        attractions: ['Jaffa Gate', 'Tower of Dawid', 'Synagoga Hurva', 'Ściana Płaczu', 'Meczet Al Aksa', 'Bazylika Grobu Świętego', 'Via Dolorosa', 'Meahane Yehuda Market'],
         dayImage: day1Izrael,
       },
       {
         day: 2,
-        description:
-          'Wejście o wschodzie słońca na Twierdzę Masada na pustyni, przejazd do Parku Narodowego i zakończenie dnia kąpielą w Morzu Martwym',
+        description: 'Wejście o wschodzie słońca na Twierdzę Masada na pustyni, przejazd do Parku Narodowego i zakończenie dnia kąpielą w Morzu Martwym',
         attractions: ['Twierdza Masada', 'Park Narodowy Ein Gedi'],
         dayImage: day2Izrael,
       },
@@ -195,14 +176,7 @@ export const db = [
         day: 2,
         description:
           "Wczesna pobudka, przejazd pod Łuk triumfalny, możliwość dokupienia wejścia na szczyt (60zł), spacer po okolicy w stronę mostu z widokiem na wieże Eiifle'a. Po obiedzie spacer w strone Luwru. Zwiedzanie muzeum potrwa około 3 godziny.",
-        attractions: [
-          'Łuk triumfalny',
-          'Champs Elysees',
-          'Grand Palais i Petit Palais',
-          'Most Aleksandra III',
-          'Plac De La Concorde',
-          'Ogrody Tuileries',
-        ],
+        attractions: ['Łuk triumfalny', 'Champs Elysees', 'Grand Palais i Petit Palais', 'Most Aleksandra III', 'Plac De La Concorde', 'Ogrody Tuileries'],
         dayImage: day2France,
       },
       {
@@ -214,15 +188,13 @@ export const db = [
       },
       {
         day: 4,
-        description:
-          'Dzień ten poświęcimy na zobaczenia najważniejszych i najciekawszych muzeów w Paryżu. Zakończymy go jednak spacerem po dzielnicy Montmartre',
+        description: 'Dzień ten poświęcimy na zobaczenia najważniejszych i najciekawszych muzeów w Paryżu. Zakończymy go jednak spacerem po dzielnicy Montmartre',
         attractions: ['Ateliere de Lumieres', 'Muzeum Magii', 'Opera Garnier', 'Muzeum perfum', 'Katedra Sacre Coeur'],
         dayImage: day4France,
       },
       {
         day: 5,
-        description:
-          'Ostatniego dnia naszej podróży wybierzemy się do Wersalu, gdzie zobaczymy najpiękniejszy zespół pałacowy, który był rezydencją królów francuskich.',
+        description: 'Ostatniego dnia naszej podróży wybierzemy się do Wersalu, gdzie zobaczymy najpiękniejszy zespół pałacowy, który był rezydencją królów francuskich.',
         attractions: [],
         dayImage: day5France,
       },
@@ -262,8 +234,7 @@ export const db = [
       },
       {
         day: 3,
-        description:
-          'Ostatni dzień naszego wyjazdu spędzimy na promie zwiedzając wyspy archipelagu Goteborskiego, gdzie możemy przyjrzeć się szwedzkiej codzienności życia na wyspie.',
+        description: 'Ostatni dzień naszego wyjazdu spędzimy na promie zwiedzając wyspy archipelagu Goteborskiego, gdzie możemy przyjrzeć się szwedzkiej codzienności życia na wyspie.',
         attractions: ['wyspa Husvik', 'wyspa Vrango', 'wyspa Sjumansholmen'],
         dayImage: day3Sweden,
       },
@@ -368,8 +339,7 @@ export const db = [
       },
       {
         day: 5,
-        description:
-          'Ostatniego dnia zobaczymy ogromne muzeum i galerię sztuki i kościół powstały całkowicie z marmuru. Wieczorny przelot do Polski.',
+        description: 'Ostatniego dnia zobaczymy ogromne muzeum i galerię sztuki i kościół powstały całkowicie z marmuru. Wieczorny przelot do Polski.',
         attractions: ['Glyptotek', 'Marmurowy Kościół'],
         dayImage: day5Denmark,
       },

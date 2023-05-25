@@ -27,8 +27,6 @@ const ResultComponent = () => {
   const dispatch = useDispatch();
   const data = getData();
 
-  console.log(data);
-
   return (
     <div className="result">
       <div className="result__header">
@@ -48,7 +46,7 @@ const ResultComponent = () => {
               <>
                 <p className="summary">Podsumowanie:</p>
                 <p className="summaryResult">{data.price * personAmount} zł</p>
-                <NavLink to="/search" className="link">
+                <NavLink to={`/reservation/${data.id}`} className="link" key={data.id}>
                   <button className="searchBar-button">Zarezerwuj</button>
                 </NavLink>
               </>
@@ -65,7 +63,6 @@ const ResultComponent = () => {
           ))}
         </ul>
       </div>
-
       <div className="result__tripSchedule">
         <p>Plan wycieczki:</p>
         {data.days.map((item) =>
